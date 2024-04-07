@@ -5,15 +5,15 @@ def main():
 
   if length <= 750 and length >= 620:
       print("The relevant color is Red")
-  elif length >= 590:
+  elif length <= 750 and length >= 590:
       print("The relevant color is Orange")
-  elif length >= 570:
+  elif length <= 750 and length >= 570:
       print("The relevant color is Yellow")
-  elif length >= 495:
+  elif length <= 750 and length >= 495:
       print("The relevant color is Green")
-  elif length >= 450:
+  elif length <= 750 and length >= 450:
       print("The relevant color is Blue")
-  elif length >= 380:
+  elif length <= 750 and length >= 380:
       print("The relevant color is Violet")
   else:
       print("Invalid input!")
