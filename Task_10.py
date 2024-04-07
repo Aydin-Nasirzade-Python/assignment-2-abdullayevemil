@@ -5,7 +5,7 @@ def main():
 
   y = float(input("Enter y: "))
   
-  if (y >= x ** 2 and x >= 0 and y >= 4 - x ** 2) or (y <= x ** 2 and y <= 2 - x and x <= 0) or (y >= x ** 2 and y <= 4 - x ** 2 and y <= 2 - x and x <= 0) or (y <= x ** 2 and y <= 2 - x and y >= 0 and x >= 0):
+  if (y >= x ** 2 and x >= 0 and y >= 4 - x ** 2) or (y <= x ** 2 and y >= 2 - x and x <= 0) or (y >= x ** 2 and y <= 4 - x ** 2 and y <= 2 - x and x <= 0) or (y <= x ** 2 and y <= 2 - x and y >= 0 and x >= 0):
       print("The point is in the shaded area")
   else:
       print("The point is not in the shaded area")
